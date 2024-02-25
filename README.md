@@ -68,5 +68,4 @@ npm start
   <li>npm v10.4.0</li>
 </ul>
 
-<p>Demo: <a href="https://chating-react-firebase.vercel.app">VIEW DEMO</a></p>
-<p>Follow Me: <a href="https://hy-tech.my.id/">HyTech Group</a></p>
+<span>Demo: <a href="https://chating-react-firebase.vercel.app">VIEW DEMO</a><br>Follow Me: <a href="https://hy-tech.my.id/">HyTech Group</a></span>
