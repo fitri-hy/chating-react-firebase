@@ -1,5 +1,8 @@
 # Realtime Chating React & Firebase Database
 
+<h2>Clone Project</h2>
+<pre>git clone https://github.com/fitri-hy/chating-react-firebase.git</pre>
+
 <h2>Config Configuration</h2>
 <p>src/firebase.js</p>
 <pre>
@@ -55,7 +58,6 @@ service firebase.storage {
 
 <h2>Run Project</h2>
 <pre>
-git clone https://github.com/fitri-hy/chating-react-firebase.git
 npm install
 npm start
 </pre>
