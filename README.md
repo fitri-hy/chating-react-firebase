@@ -51,7 +51,6 @@ service firebase.storage {
 }
   </pre>
 </ul>
-___________________________________________________________
 
 <h2>Run Project</h2>
 <ul>
@@ -59,14 +58,12 @@ ___________________________________________________________
   <li><pre>npm install</pre></li>
   <li><pre>npm start</pre></li>
 </ul>
-___________________________________________________________
 
 <h2>Testing</h2>
 <ul>
   <li>Node v21.0.0</li>
   <li>npm v10.4.0</li>
 </ul>
-___________________________________________________________
 
 <p>Demo: <a href="https://chating-react-firebase.vercel.app">VIEW DEMO</a></p>
 <p>Follow Me: <a href="https://hy-tech.my.id/">HyTech Group</a></p>
