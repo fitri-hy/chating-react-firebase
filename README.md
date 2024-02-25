@@ -54,11 +54,11 @@ service firebase.storage {
 </ul>
 
 <h2>Run Project</h2>
-<ul>
-  <li><pre>git clone https://github.com/fitri-hy/chating-react-firebase.git</pre></li>
-  <li><pre>npm install</pre></li>
-  <li><pre>npm start</pre></li>
-</ul>
+<pre>
+git clone https://github.com/fitri-hy/chating-react-firebase.git
+npm install
+npm start
+</pre>
 
 <h2>Testing</h2>
 <ul>
