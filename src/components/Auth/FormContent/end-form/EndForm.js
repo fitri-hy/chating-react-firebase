@@ -14,7 +14,7 @@ const EndForm = ({end_name_btn, end_question, btn_click, email, fN, lN, password
             {end_question === "sign-in" && <p className="have-account" >Sudah punya akun ? <span className="form-link" ><Link to="/" >Masuk</Link></span></p>}
             {end_question === "sign-up" && <p className="have-account" >Tidak punya akun? <span className="form-link" ><Link to="/sign_up" >Daftar</Link></span></p>}   
             {end_question === "sign-up" && <p className="have-account" >Apakah Anda lupa kata sandi? <span><Link to="/forgot_password" >Atur Ulang</Link></span></p>}   
-            <p className="form-rights" >© Messenger by Fistrba 2021. All rights reserved.</p>       
+            <p className="form-rights" >©2024 <a href="https://hy-tech.my.id/" target="_blank">HyTech</a>. All rights reserved.</p>       
         </div>
     )
 }
