@@ -17,6 +17,7 @@ const firebaseConfig = {
 
 <h2>Firebase Settings</h2>
 <ul>
+  <li>Go to <a href="https://console.firebase.google.com/">Firebase</a></li>
   <li>Add App -> Web - Copy Firebase Config (✔️)</li>
   <li>Activate Authentication -> Email/Password (✔️)</li>
   <li>Activate Realtime Database - > Rules: (✔️)</li>
