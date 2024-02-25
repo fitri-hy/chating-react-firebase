@@ -1,0 +1,69 @@
+.form-flex-column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.have-account {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    margin-top: .7rem;
+}
+.have-account:nth-child(3) {
+    margin-top: 0.3rem;
+}
+.have-account span a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.btn-form {
+    color: #625AC0;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    background: #E6E4F9;
+    border: none;
+    outline: none;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+@media(min-width:1100px) {
+    .have-account {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+    }
+    .btn-form {
+        padding: 0.9rem 3.7rem;
+        border-radius: 12px;
+        font-size: 1rem;
+        margin-top: 0.7rem;
+    }
+}
+@media(min-width:1650px) {
+    .have-account {
+        margin-top: 1rem;
+        font-size: 0.95rem;
+    }
+    .btn-form {
+        padding: 1.3rem 4.7rem;
+        font-size: 1.4rem;
+        margin-top: 1.1rem;
+    }
+}
+
+.btn-form {
+   transition: all .3s ease;
+}
+.btn-form:disabled {
+   cursor: not-allowed;
+   opacity: 0.8;
+}
+.btn-form:hover {
+   opacity: 0.8;
+}

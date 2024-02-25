@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Profile in TopBar */
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.profile img {
+    margin-left: 15px;
+}
+
+/* Open Profile in TopBar */
+.click-profile {
+    position: absolute;
+    right: 20px;
+    margin-top: .7rem;
+    background-color: #fefefe;
+    box-shadow: 0px 0px 10px rgba(224, 224, 224, 0.44);
+    padding: 12px 10px;
+    border-radius: 10px;
+    animation: scale .2s ease;
+    z-index: 1000;
+}
+@keyframes scale {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.click-profile .my-profile,
+.click-profile .my-settings,
+.click-profile .my-logout  {
+    display: flex;
+}
+.click-profile .my-profile {
+    padding:12px 10px;
+    border-bottom: .5px solid rgba(223, 223, 223, 0.8);
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.click-profile .my-profile div{
+    margin-right: 2rem;
+}
+#profile img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#profile .my-profile img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.click-profile .my-profile img{
+   width: 60px !important;
+   height: 60px !important;
+   object-fit: cover;
+}
+.my-profile h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-left: .2rem;
+  color: #1F1F1F;
+}
+.my-profile p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #202020;
+  margin-left: .2rem;
+}
+.profile-options {
+    padding: 1.2rem 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.profile-options:hover {
+    background-color: #F4F4F4;
+}
+.profile-options .change-link {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-options div {
+    display: flex;
+    width: 100%;
+}
+.profile-options h4, .profile-options a{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #202020;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.profile-options .MuiSvgIcon-root {
+    color: #5f5f5f !important;
+}
+.profile-options .material-icons{
+    color: #5f5f5f !important;
+}
+.profile-options:nth-child(3) {
+    margin-top: .5rem;
+}
+.profile-reserved {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    color:#202020 ;
+    padding:0 1rem;
+    margin-top: 0.8rem;
+}
+.profile .MuiSvgIcon-root {
+    fill: #494949 !important;
+    transition: transform .2s ease-in-out;
+}
+
+@media(min-width: 1150px) {
+    .click-profile {
+        padding:0rem 1rem .8rem 1rem;
+    }
+    .click-profile .my-profile {
+        padding:1rem 2.5rem .7rem 0.5rem;
+    }
+}
+@media(min-width: 1650px) {
+    #profile img {
+        width: 50px;
+        height: 50px;
+    }
+    .click-profile {
+        position: absolute;
+        right: 1.5rem;
+        margin-top: .7rem;
+        background-color: #f8f8f8;
+        box-shadow: 0px 0px 10px rgba(202, 202, 202, 0.44);
+        padding:0rem 1.3rem .8rem 1.3rem;
+        border-radius: 10px;
+        animation: scale .2s ease;
+        z-index: 1000;
+    }
+    .click-profile .my-profile {
+        padding:1.2rem 2.5rem .9rem 0.5rem;
+        border-bottom: .5px solid rgba(223, 223, 223, 0.8);
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}

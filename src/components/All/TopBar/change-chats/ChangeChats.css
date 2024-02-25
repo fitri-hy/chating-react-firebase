@@ -1,0 +1,22 @@
+.change-chats {
+    flex: 3;
+    margin-left: 2.5rem;
+}
+.change-chats a {
+    text-decoration: none !important;
+    color: #3E3D3D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.change-chats a.active {
+    color: #625AC0;
+}
+.change-chats a:nth-child(2) {
+    margin-left: 50px;
+}
+@media (min-width: 1650px) {
+ .change-chats a {
+     font-size: 1.1rem;
+ }
+}

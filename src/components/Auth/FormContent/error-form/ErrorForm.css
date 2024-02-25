@@ -1,0 +1,15 @@
+#error-form {
+    margin-top:1rem;
+    font-family: "Karla",sans-serif;
+    color: #DBD6FA;
+    font-weight: bold;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+}
+@media (min-width:1650px) {
+    #error-form {
+        font-size: 16px;
+    }
+}

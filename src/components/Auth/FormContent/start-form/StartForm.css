@@ -1,0 +1,26 @@
+.form-logo {
+    width: 2.3rem;
+    margin-bottom: 1rem;
+}
+#form .title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    color: white;
+    text-align: center;
+    width: 85%;
+}
+@media(min-width:1100px) {
+    #form .title {
+        font-size: 1.2rem;
+    }  
+    .form-logo {
+        display: none;
+    }
+}
+@media(min-width:1650px) {
+    #form .title {
+        font-size: 2rem;
+    } 
+}

@@ -1,0 +1,21 @@
+#profile-settings {
+    height: 100vh;
+    background-color: #eceafc;
+}
+#profile-settings .dashboard-component-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+#profile-settings#center-bar {
+   width: 50% !important;
+}
+
+@media(max-height: 400px) {
+    #profile-settings {
+        height: 50rem;
+    }
+}

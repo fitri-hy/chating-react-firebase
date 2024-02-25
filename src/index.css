@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rotate-animation {
+    transform: rotate(180deg);
+}
+
+.scale-animation {
+    transform: scale(1);
+    opacity: 1;
+}

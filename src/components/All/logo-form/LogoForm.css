@@ -1,0 +1,90 @@
+/* Logo Style */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .logo-text {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #5D54C2;
+  cursor: default;
+}
+
+#top-bar-main .logo {
+  padding: 1rem !important;
+}
+
+#top-bar-main .logo-img {
+  width: 35px ;
+}
+
+#top-bar-main .logo {
+  flex: 1;
+}
+
+#top-bar-main .logo-text {
+  letter-spacing: 0.8px;
+} 
+
+.logo-text {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 3px;
+} 
+.logo-img {
+ width: 40px;
+} 
+.logo {
+ padding: 2rem;
+}
+
+
+@media (min-width: 1150px) {
+  .logo {
+    padding: 2rem;
+  }
+  .logo .logo-text {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 3=px;
+  } 
+  .logo-img {
+    width: 3rem;
+  }
+  #top-bar .logo-text {
+    font-size: 1.2rem !important;
+    margin-left: 1rem;
+  } 
+ #top-bar .logo-img {
+   width: 2.3rem !important;
+ } 
+ #top-bar .logo {
+   padding: 2rem 0rem !important;
+ } 
+}
+@media (min-width: 1650px) {
+  .logo {
+    padding: 3rem;
+  }
+  .logo .logo-text {
+    font-size: 2.4rem;
+    margin-left: 1.5rem;
+  } 
+  .logo-img {
+    width: 4rem;
+  }
+  #top-bar .logo-text {
+    font-size: 1.9rem !important;
+  } 
+ #top-bar .logo-img {
+   width: 4rem !important;
+ } 
+ #top-bar .logo {
+   padding: 2rem 0rem !important;
+ } 
+}
+
+
