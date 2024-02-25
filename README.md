@@ -1,8 +1,9 @@
-# chating-react-firebase
+# Realtime Chating React & Firebase Database
 
-<h1>Konfigurasi Firebase Database</h1>
+<h2>Configuration Firebase</h2>
+<p>src/firebase.js</p>
 <pre>
-  const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "xxxxxxxxxxxxxxxxxxxx",
   authDomain: "xxxxxxxxxxxxxxxxxxxx",
   projectId: "xxxxxxxxxxxxxxxxxxxx",
@@ -13,4 +14,59 @@
   storageURL: "xxxxxxxxxxxxxxxxxxxx"
 };
 </pre>
-<p>Demo: https://chating-react-firebase.vercel.app</p>
+
+<h2>Firebase Settings</h2>
+<ul>
+  <li>Add App -> Web - Copy Firebase Config (✔️)</li>
+  <li>Activate Authentication -> Email/Password (✔️)</li>
+  <li>Activate Realtime Database - > Rules: (✔️)</li>
+  <pre>
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+  </pre>
+  <li>Activate Cloud Firestore : Rules (✔️)</li>
+    <pre>
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+  </pre>
+  <li>Activate Storage -> Rules: (✔️)</li>
+  <pre>
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write;
+    }
+  }
+}
+  </pre>
+</ul>
+___________________________________________________________
+
+<h2>Run Project</h2>
+<ul>
+  <li><pre>git clone https://github.com/fitri-hy/chating-react-firebase.git</pre></li>
+  <li><pre>npm install</pre></li>
+  <li><pre>npm start</pre></li>
+</ul>
+___________________________________________________________
+
+<h2>Testing</h2>
+<ul>
+  <li>Node v21.0.0</li>
+  <li>npm v10.4.0</li>
+</ul>
+___________________________________________________________
+
+<p>Demo: <a href="https://chating-react-firebase.vercel.app">VIEW DEMO</a></p>
+<p>Follow Me: <a href="https://hy-tech.my.id/">HyTech Group</a></p>
