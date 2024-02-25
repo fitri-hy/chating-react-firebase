@@ -1,6 +1,6 @@
 # Realtime Chating React & Firebase Database
 
-<h2>Configuration Firebase</h2>
+<h2>Config Configuration</h2>
 <p>src/firebase.js</p>
 <pre>
 const firebaseConfig = {
